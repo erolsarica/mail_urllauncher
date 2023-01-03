@@ -19,7 +19,7 @@ class _HomePageState extends State<HomePage> {
             ElevatedButton(
               onPressed: (){
 
-                launchUrl('mailto:erolsarica@gmail.com? subject=Merhaba Title&body=E-posta konu');
+                launchUrl(Uri.parse('mailto:erolsarica@gmail.com?subject=Merhaba&body=E-posta konusu'));
 
               },child: Text("E-Posta Gönder"),
             ),
