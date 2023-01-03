@@ -23,13 +23,6 @@ class _HomePageState extends State<HomePage> {
 
               },child: Text("E-Posta Gönder"),
             ),
-            ElevatedButton(
-              onPressed: (){
-
-                launchUrl(Uri.parse('mailto:erolsarica2@gmail.com?subject=Merhaba&body=E-posta konusu'));
-
-              },child: Text("E-Posta Gönder"),
-            ),
           ],
         ),
       ),
